@@ -120,7 +120,7 @@ async def gstats(_, message):
         pass
     uptime = await bot_sys_stats()
     response = await message.reply_photo(
-        photo=f"{IMG_1}",
+        photo=f"https://telegra.ph/file/57cc74cc642007608aeff.jpg",
         caption=f"""Getting Stats..."""
     )
     end = datetime.now()
