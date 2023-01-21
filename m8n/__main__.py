@@ -40,10 +40,10 @@ async def load_start():
         except Exception as e:
             print("Error came while clearing db")
             pass
-    await app.send_message(OWNER_ID, "**Rᴀɪᴅᴇɴ Mᴜsɪᴄ Bᴏᴛ Sᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ**")
+    await app.send_message(OWNER_ID, "**Kᴏᴜsᴇɪ Mᴜsɪᴄ Bᴏᴛ Sᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ**")
    # Copyrighted Area
-    await client.join_chat("AnimechatAkatsuki")
-    await client.join_chat("AnimechatAkatsuki")
+    await client.join_chat("AnimechatMystic")
+    await client.join_chat("AnimechatMystic")
     print("[INFO]: STARTED")
     
 
